@@ -4,7 +4,7 @@
 
 Run the encoding script and follow the prompts:
 
-python encoding_script.py
+python3 c_sharp_shellcode_encoder.py
 The script will:
 - Generate shellcode using msfvenom (e.g., reverse_https/reverse_tcp payload)
 - Encode the shellcode using XOR, Caesar, or a custom encoding method
